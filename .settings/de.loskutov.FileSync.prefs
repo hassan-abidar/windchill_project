@@ -1,0 +1,11 @@
+WARNING=DO NOT MODIFY THIS FILE IF YOU DON'T UNDERSTAND
+defaultDestination=C\:/ptc/Windchill_12.0/Windchill/codebase
+defaultVariables=
+eclipse.preferences.version=1
+includeTeamPrivateFiles=false
+map|0=/|C\:/ptc/Windchill_12.0/Windchill|,|src/;wtCustom/;src/;loadFiles/;devFolder/;codebase/|,
+map|1=codebase|C\:/ptc/Windchill_12.0/Windchill/codebase|,|,|,
+map|2=loadFiles|C\:/ptc/Windchill_12.0/Windchill/loadFiles|,|,|,
+map|3=src|C\:/ptc/Windchill_12.0/Windchill/src|,|,|,
+map|4=wtCustom|C\:/ptc/Windchill_12.0/Windchill/wtCustom|,|,|,
+useCurrentDateForDestinationFiles=false

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listofactions SYSTEM "actions.dtd">
+<listofactions>
+ 	
+	 <objecttype name="changeNotice" class="wt.change2.WTChangeOrder2" resourceBundle="com.ptc.windchill.enterprise.change2.changeManagementActionsRB">
+
+      <action name="create" uicomponent="CREATE_CHANGENOTICE" ajax="component">
+         <description>Create change notice</description>
+         <command class="ext.inetum.training.CustomCreateChangeNoticeFormProcessor" method="execute" windowType="popup"/>
+         <includeFilter name="OptionSetLocalRuleContextFilter"/> 
+         <includeFilter name="sandboxSharingValidationSimple"/>
+         <includeFilter name="restrictGuestMembers"/>
+         <includeFilter name="adminLockModifyChangeObjectsFilter"/>
+      </action>
+	 </objecttype>
+</listofactions>
